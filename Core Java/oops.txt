@@ -1,0 +1,60 @@
+Object Oriented Programming in Java
+
+class  : Template to create an object  (blueprint)
+
+object : An instance of an class 
+
+
+
+Pillars of object orientation 
+
+1. Inheritance  
+    - inheriting properties and behaviour from parent class or base class using "extends" Keyword.
+    - Types of inheritance 
+        - Single level inheritance
+            - an single child class inheriting properties and behaviour from its parent class
+            - single child class single parent class
+        - Multi-level inheritance
+            - an chain of single level inheritance.
+            - chain of single child class single parent class
+            -   .... -> child - > parent -> grand parent
+        - Hybrid inheritance  
+            - combination of two or more types of inheritance 
+        - Hieranchial inheritance 
+            - one parent class multiple child class
+        - Multiple inheritance (possible only using interfaces)
+            - one child class inheriting properties and behaviour from multiple parent classes.
+            - one child class Multiple parent class
+        - Cyclic inheritance (not possible in java) 
+            - child class inherits parent class and parent class inherits from child class
+
+2. Encapsulation
+     -Encapsulation refers to bundeling the data and methods together. and giving the controlled access by using access modifiers
+     - private , public, protected 
+
+
+3. Abstraction :
+    - showing what it does and hiding how it does is abstraction.
+    - providing functionality and hiding implementation by using abstract classes and interfaces.
+
+
+
+4. Polymorphism 
+    - Allows objects to behave differently with respect to object type.
+    - same name different work
+    - Types : 
+         -Compile time 
+            - Method overloading
+                - method has same name but differ in number of parameters, types and order of parameters.
+         - Run time  
+            - Method Overriding 
+                -  inhering the method from the parent class and changing its behaviour.
+
+
+
+
+Interface 
+    - Created by using interface keyword and used to set up rules or standards or templates.
+    - we can achive multiple inheritance using interface because interface dont have super class to build an diamond shape problem.
+    - It dont have concreate methods to form an ambiguity problem.
+
