@@ -1,0 +1,90 @@
+Collection Framework in java
+it is present in the package = java.util.*;
+
+
+
+
+Structure  of Collectons Framework 
+
+
+
+
+
+
+                   |                   |-----> ArrayList (size increment = size + (size/2) + 1) 
+                   |                   |       (methods = add(), add(index, element), addAll(newList), get(index),  remove(index), remove(Integer.valueOf(element), clear(), set(index,element))
+                   |                   |
+                   |                   |
+                   |------- List-------|------> LinkedList   (doubly linked list) ( add(), offer(), poll(),  peek(), )
+                   |                   |
+                   |                   |
+                   |                   |-------> Stack (FILO, LIFO)
+                   |                   |          (methods = push(), pop(), peek(), )
+                   |                   |
+                   |                   |-----> Vector
+                   |                   
+                   |
+                   |                   |-------> HashSet   (Unique elements, HAshing algorithm, no order)
+                   |                   |             (add(), remove(), contains(), isEmpty(), size(), clear())
+                   |                   |
+Collection   ------|-------- Set ------|--------> LinkedHashSet  (same like hashset but preserve order, )
+                   |                   |
+                   |                   |
+                   |                   |--------> TreeSet   (binary search tree, unique, and sorted elements)
+                   |                                  
+                   |                   
+                   |                   
+                   |--------- Queue----|(FIFO LILO))
+                                       |
+                                       |-----------> PriorityQueue (priority based  )
+                                       |
+                                       |----------> ArrayDeque (two way insertion, deletion) double ended Queue
+                                       |        (peek(), peekFirst(), peekLast())
+
+
+
+
+
+Map stores Key-value pair of data
+
+             |-------->  HashMap    (uses hashing algorithm,  stores key value pair, )
+             |             (methods, put(), containsKey(key), putIfAbsent(key,value), EntrySet(), getKey(), getValue(), keySet(), ValueSet())
+             |             (ContainsValue(), IsEmpty(), remove(Key) )
+             |
+Map ---------|
+             |
+             |
+             |
+             |--------> TreeMap  (sorted order, )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Collections class funcctionalities 
+
+        Collections.min(list);
+        Collections.max(list);
+        Collections.frequency(list);
+        Collections.sort(list);
+        Collections.sort(list,Comparator.revereOrder);
+
+
+Comparable = interface to define on which field the collection should compare 
+
+
+
+Comparator
+
+eg: Collections.sort(list, Comparator<Student>())
+
+
