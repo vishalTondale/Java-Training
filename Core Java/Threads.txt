@@ -1,0 +1,46 @@
+Threads   
+
+Thread : flow/way of execution
+
+
+execution is Concurrent : time based 
+
+ways of creating threads 
+1. implementing Runnable interface
+    - creating Thread class object 
+    - threadObject.start(objectOfClass)
+2. extending Thread class and overriding run method
+    start()  internally calls --> run()
+
+
+- Thread Scheduler shedule which thread to run.
+- we cant control thread scheduler we can add priority to thread from 0 to 10 when 10 is the maximum priority.
+- methods 
+        sleep(ms);
+
+
+
+Mutation : changing something
+
+Thread safe : One Thread can work with one source/method
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Lambda expression : works whenever we have functional interface
